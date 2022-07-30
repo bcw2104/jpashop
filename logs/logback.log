@@ -1008,3 +1008,27 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 [INFO ] 20:54:07.532 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
 [INFO ] 20:54:07.537 com.jpashop.JpashopApplication - Started JpashopApplication in 0.475 seconds (JVM running for 2458.46)
 [INFO ] 20:54:07.539 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 21:04:04.013 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 21:04:04.013 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 21:04:04.155 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 21:04:04.159 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 21:04:04.245 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 21:04:04.246 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 21:04:04.246 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 21:04:04.263 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 21:04:04.263 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 248 ms
+[INFO ] 21:04:04.271 com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Starting...
+[INFO ] 21:04:04.274 com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Start completed.
+[INFO ] 21:04:04.274 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 21:04:04.293 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 21:04:04.298 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 21:04:04.313 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 21:04:04.313 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 21:04:04.313 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 21:04:04.366 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 21:04:04.366 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 21:04:04.399 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 21:04:04.495 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 21:04:04.503 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 21:04:04.506 com.jpashop.JpashopApplication - Started JpashopApplication in 0.521 seconds (JVM running for 3055.429)
+[INFO ] 21:04:04.507 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
