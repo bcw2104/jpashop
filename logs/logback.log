@@ -1,0 +1,1010 @@
+[INFO ] 20:01:29.052 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:01:29.057 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20:01:29.062 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20:01:29.190 com.jpashop.JpashopApplication - info
+[WARN ] 20:01:29.191 com.jpashop.JpashopApplication - warn
+[ERROR] 20:01:29.191 com.jpashop.JpashopApplication - error
+[INFO ] 20:01:29.231 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:01:29.233 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:01:29.400 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:01:29.405 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:01:29.507 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:01:29.508 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:01:29.508 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:01:29.508 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:01:29.523 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:01:29.523 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 287 ms
+[INFO ] 20:01:29.532 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 20:01:29.536 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 20:01:29.536 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:01:29.557 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:01:29.565 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:01:29.658 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:01:29.658 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:01:29.688 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:01:29.769 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:01:29.777 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:01:29.779 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:01:29.782 com.jpashop.JpashopApplication - Started JpashopApplication in 0.586 seconds (JVM running for 24.639)
+[INFO ] 20:01:29.784 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:06:52.453 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:06:52.454 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 20:06:52.461 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 20:06:52.649 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:06:52.650 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:06:52.870 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:06:52.876 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:06:52.980 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:06:52.980 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:06:52.981 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:06:52.981 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:06:52.999 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:06:52.999 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 345 ms
+[INFO ] 20:06:53.007 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 20:06:53.012 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 20:06:53.012 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:06:53.033 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:06:53.040 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:06:53.134 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:06:53.134 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:06:53.161 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:06:53.237 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:06:53.245 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:06:53.248 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:06:53.251 com.jpashop.JpashopApplication - Started JpashopApplication in 0.649 seconds (JVM running for 348.109)
+[INFO ] 20:06:53.253 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:06:55.152 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:06:55.153 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[INFO ] 20:06:55.178 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[INFO ] 20:06:55.341 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:06:55.341 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:06:55.490 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:06:55.494 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:06:55.559 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:06:55.560 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:06:55.560 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:06:55.560 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:06:55.575 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:06:55.575 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 232 ms
+[INFO ] 20:06:55.584 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+[INFO ] 20:06:55.587 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+[INFO ] 20:06:55.587 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:06:55.606 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:06:55.613 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:06:55.693 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:06:55.693 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:06:55.722 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:06:55.792 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:06:55.799 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:06:55.800 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:06:55.804 com.jpashop.JpashopApplication - Started JpashopApplication in 0.492 seconds (JVM running for 350.661)
+[INFO ] 20:06:55.806 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:07:01.837 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:07:01.838 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+[INFO ] 20:07:01.845 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+[INFO ] 20:07:01.987 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:07:01.987 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:07:02.166 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:07:02.170 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:07:02.242 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:07:02.243 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:02.243 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:07:02.243 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:07:02.258 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:07:02.258 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 268 ms
+[INFO ] 20:07:02.266 com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+[INFO ] 20:07:02.270 com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+[INFO ] 20:07:02.270 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:07:02.290 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:07:02.298 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:07:02.385 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:07:02.386 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:07:02.416 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:07:02.486 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:07:02.493 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:02.495 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:07:02.499 com.jpashop.JpashopApplication - Started JpashopApplication in 0.547 seconds (JVM running for 357.356)
+[INFO ] 20:07:02.500 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:07:04.441 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:07:04.442 com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+[INFO ] 20:07:04.448 com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+[INFO ] 20:07:04.531 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:07:04.531 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:07:04.674 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:07:04.678 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:07:04.741 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:07:04.742 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:04.742 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:07:04.742 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:07:04.756 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:07:04.756 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 223 ms
+[INFO ] 20:07:04.765 com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+[INFO ] 20:07:04.769 com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+[INFO ] 20:07:04.769 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:07:04.789 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:07:04.795 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:07:04.874 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:07:04.874 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:07:04.905 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:07:04.972 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:07:04.978 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:04.980 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:07:04.983 com.jpashop.JpashopApplication - Started JpashopApplication in 0.482 seconds (JVM running for 359.841)
+[INFO ] 20:07:04.985 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:07:11.048 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:07:11.049 com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+[INFO ] 20:07:11.053 com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+[INFO ] 20:07:11.198 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:07:11.198 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:07:11.356 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:07:11.360 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:07:11.439 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:07:11.440 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:11.440 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:07:11.440 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:07:11.467 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:07:11.468 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 268 ms
+[INFO ] 20:07:11.476 com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+[INFO ] 20:07:11.479 com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+[INFO ] 20:07:11.479 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:07:11.497 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:07:11.502 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:07:11.586 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:07:11.586 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:07:11.614 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:07:11.680 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:07:11.687 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:11.688 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:07:11.692 com.jpashop.JpashopApplication - Started JpashopApplication in 0.523 seconds (JVM running for 366.549)
+[INFO ] 20:07:11.693 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:07:14.670 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:07:14.671 com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+[INFO ] 20:07:14.675 com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+[INFO ] 20:07:14.784 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:07:14.784 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:07:14.937 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:07:14.942 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:07:15.014 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:07:15.014 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:15.014 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:07:15.014 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:07:15.031 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:07:15.031 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 244 ms
+[INFO ] 20:07:15.039 com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+[INFO ] 20:07:15.043 com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+[INFO ] 20:07:15.043 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:07:15.066 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:07:15.101 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:07:15.185 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:07:15.186 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:07:15.212 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:07:15.283 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:07:15.290 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:15.293 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:07:15.297 com.jpashop.JpashopApplication - Started JpashopApplication in 0.544 seconds (JVM running for 370.154)
+[INFO ] 20:07:15.299 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:07:22.355 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:07:22.356 com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+[INFO ] 20:07:22.360 com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+[INFO ] 20:07:22.519 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:07:22.520 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:07:22.663 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:07:22.667 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:07:22.734 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:07:22.735 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:22.735 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:07:22.735 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:07:22.750 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:07:22.750 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 229 ms
+[INFO ] 20:07:22.758 com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+[INFO ] 20:07:22.762 com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+[INFO ] 20:07:22.762 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:07:22.786 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:07:22.792 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:07:22.904 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:07:22.904 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:07:22.929 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:07:23.001 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:07:23.007 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:23.009 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:07:23.012 com.jpashop.JpashopApplication - Started JpashopApplication in 0.522 seconds (JVM running for 377.869)
+[INFO ] 20:07:23.014 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:07:56.727 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:07:56.728 com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+[INFO ] 20:07:56.731 com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+[INFO ] 20:07:56.820 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:07:56.820 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:07:56.964 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:07:56.968 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:07:57.057 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:07:57.058 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:57.058 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:07:57.058 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:07:57.073 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:07:57.073 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 252 ms
+[INFO ] 20:07:57.081 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+[INFO ] 20:07:57.085 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+[INFO ] 20:07:57.085 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:07:57.103 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:07:57.108 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:07:57.178 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:07:57.179 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:07:57.208 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:07:57.275 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:07:57.282 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:07:57.284 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:07:57.287 com.jpashop.JpashopApplication - Started JpashopApplication in 0.5 seconds (JVM running for 412.144)
+[INFO ] 20:07:57.289 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:08:36.097 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:08:36.098 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+[INFO ] 20:08:36.102 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+[INFO ] 20:08:36.204 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:08:36.205 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:08:36.348 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:08:36.352 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:08:36.448 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:08:36.448 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:08:36.448 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:08:36.448 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:08:36.464 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:08:36.464 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 258 ms
+[INFO ] 20:08:36.471 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+[INFO ] 20:08:36.475 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+[INFO ] 20:08:36.475 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:08:36.493 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:08:36.498 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:08:36.514 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:08:36.515 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:08:36.515 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:08:36.569 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:08:36.569 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:08:36.597 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:08:36.665 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:08:36.671 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:08:36.673 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:08:36.676 com.jpashop.JpashopApplication - Started JpashopApplication in 0.499 seconds (JVM running for 451.533)
+[INFO ] 20:08:36.677 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:08:59.089 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:08:59.090 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+[INFO ] 20:08:59.094 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+[INFO ] 20:08:59.213 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:08:59.213 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:08:59.349 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:08:59.353 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:08:59.418 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:08:59.418 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:08:59.418 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:08:59.418 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:08:59.434 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:08:59.434 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 219 ms
+[INFO ] 20:08:59.440 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+[INFO ] 20:08:59.444 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+[INFO ] 20:08:59.444 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:08:59.461 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:08:59.466 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:08:59.481 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:08:59.482 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:08:59.482 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:08:59.538 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:08:59.538 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:08:59.563 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:08:59.632 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:08:59.638 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:08:59.640 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:08:59.643 com.jpashop.JpashopApplication - Started JpashopApplication in 0.46 seconds (JVM running for 474.501)
+[INFO ] 20:08:59.644 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:09:29.277 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:09:29.278 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+[INFO ] 20:09:29.282 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+[INFO ] 20:09:29.400 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 44504 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:09:29.400 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:09:29.558 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:09:29.562 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:09:29.652 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:09:29.653 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:09:29.653 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:09:29.653 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:09:29.669 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:09:29.669 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 266 ms
+[INFO ] 20:09:29.678 com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+[INFO ] 20:09:29.681 com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+[INFO ] 20:09:29.682 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:09:29.700 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:09:29.706 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:09:29.726 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:09:29.727 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:09:29.727 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:09:29.782 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:09:29.782 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:09:29.809 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:09:29.881 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:09:29.887 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:09:29.889 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:09:29.892 com.jpashop.JpashopApplication - Started JpashopApplication in 0.522 seconds (JVM running for 504.749)
+[INFO ] 20:09:29.893 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:10:32.654 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 20:10:33.143 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:10:33.144 com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+[INFO ] 20:10:33.148 com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+[INFO ] 20:10:35.353 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 47096 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:10:35.354 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:10:35.415 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20:10:35.415 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20:10:35.941 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:10:35.958 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:10:36.500 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:10:36.509 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:10:36.510 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:10:36.510 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:10:36.592 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:10:36.592 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1176 ms
+[INFO ] 20:10:36.618 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20:10:36.728 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20:10:36.737 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:10:36.877 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:10:36.922 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+[INFO ] 20:10:37.077 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 20:10:37.195 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:10:37.372 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:10:37.374 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:10:37.374 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:10:37.857 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:10:37.865 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:10:37.953 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:10:38.269 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:10:38.283 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:10:38.299 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:10:38.308 com.jpashop.JpashopApplication - Started JpashopApplication in 3.404 seconds (JVM running for 4.506)
+[INFO ] 20:12:27.920 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:12:27.923 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20:12:27.928 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20:12:28.060 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 47096 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:12:28.060 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:12:28.227 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:12:28.231 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:12:28.330 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:12:28.330 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:12:28.331 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:12:28.331 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:12:28.348 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:12:28.348 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 286 ms
+[INFO ] 20:12:28.356 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 20:12:28.361 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 20:12:28.361 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:12:28.382 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:12:28.390 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:12:28.408 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:12:28.409 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:12:28.409 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:12:28.483 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:12:28.484 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:12:28.516 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:12:28.598 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:12:28.605 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:12:28.607 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:12:28.611 com.jpashop.JpashopApplication - Started JpashopApplication in 0.586 seconds (JVM running for 114.808)
+[INFO ] 20:12:28.613 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:12:34.617 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:12:34.619 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 20:12:34.626 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 20:12:34.765 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 47096 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:12:34.765 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:12:34.917 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:12:34.921 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:12:34.992 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:12:34.993 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:12:34.993 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:12:34.993 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:12:35.009 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:12:35.009 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 241 ms
+[INFO ] 20:12:35.018 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 20:12:35.021 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 20:12:35.022 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:12:35.042 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:12:35.050 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:12:35.068 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:12:35.069 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:12:35.069 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:12:35.138 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:12:35.139 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:12:35.167 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:12:35.239 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:12:35.246 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:12:35.248 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:12:35.251 com.jpashop.JpashopApplication - Started JpashopApplication in 0.517 seconds (JVM running for 121.449)
+[INFO ] 20:12:35.253 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:12:43.049 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 20:12:43.519 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:12:43.520 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[INFO ] 20:12:43.526 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[INFO ] 20:12:45.641 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 36040 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:12:45.642 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:12:45.703 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20:12:45.704 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20:12:46.250 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:12:46.268 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:12:46.827 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:12:46.837 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:12:46.837 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:12:46.838 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:12:46.919 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:12:46.919 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1215 ms
+[INFO ] 20:12:46.943 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20:12:47.053 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20:12:47.062 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:12:47.205 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:12:47.251 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+[INFO ] 20:12:47.406 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 20:12:47.526 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:12:47.708 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:12:47.710 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:12:47.710 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:12:48.201 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:12:48.209 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:12:48.300 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:12:48.622 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:12:48.637 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:12:48.653 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:12:48.662 com.jpashop.JpashopApplication - Started JpashopApplication in 3.444 seconds (JVM running for 4.52)
+[INFO ] 20:13:05.997 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:13:06.001 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20:13:06.005 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20:13:06.131 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 36040 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:13:06.131 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:13:06.317 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:13:06.322 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:13:06.393 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:13:06.393 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:13:06.393 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:13:06.394 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:13:06.410 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:13:06.410 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 276 ms
+[INFO ] 20:13:06.418 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 20:13:06.422 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 20:13:06.422 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:13:06.443 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:13:06.451 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:13:06.469 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:13:06.470 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:13:06.470 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:13:06.552 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:13:06.552 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:13:06.580 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:13:06.663 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:13:06.670 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:13:06.672 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:13:06.676 com.jpashop.JpashopApplication - Started JpashopApplication in 0.582 seconds (JVM running for 22.534)
+[INFO ] 20:13:06.678 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:13:07.874 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 20:13:08.451 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:13:08.452 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 20:13:08.459 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 20:13:10.575 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:13:10.576 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:13:10.619 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20:13:10.620 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20:13:11.161 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:13:11.177 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:13:11.715 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:13:11.726 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:13:11.727 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:13:11.727 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:13:11.817 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:13:11.817 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1196 ms
+[INFO ] 20:13:11.841 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20:13:11.951 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20:13:11.960 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:13:12.125 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:13:12.173 org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.9.Final
+[INFO ] 20:13:12.332 o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 20:13:12.470 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:13:12.669 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:13:12.671 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:13:12.671 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:13:13.159 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:13:13.168 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:13:13.246 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:13:13.562 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:13:13.578 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:13:13.594 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:13:13.603 com.jpashop.JpashopApplication - Started JpashopApplication in 3.438 seconds (JVM running for 4.527)
+[INFO ] 20:13:43.157 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:13:43.161 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20:13:43.166 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20:13:43.320 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:13:43.320 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:13:43.505 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:13:43.511 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:13:43.620 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:13:43.620 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:13:43.621 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:13:43.621 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:13:43.637 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:13:43.637 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 314 ms
+[INFO ] 20:13:43.645 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 20:13:43.649 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 20:13:43.649 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:13:43.673 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:13:43.681 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:13:43.703 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:13:43.704 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:13:43.704 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:13:43.789 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:13:43.789 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:13:43.820 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:13:43.905 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:13:43.913 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:13:43.915 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:13:43.918 com.jpashop.JpashopApplication - Started JpashopApplication in 0.637 seconds (JVM running for 34.842)
+[INFO ] 20:13:43.920 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:47:01.428 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:47:01.429 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 20:47:01.436 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 20:47:01.573 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:47:01.574 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:47:01.731 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:47:01.735 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:47:01.852 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:47:01.853 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:47:01.853 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:47:01.853 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:47:01.870 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:47:01.870 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 294 ms
+[INFO ] 20:47:01.879 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 20:47:01.882 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 20:47:01.882 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:47:01.904 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:47:01.911 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:47:01.932 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:47:01.932 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:47:01.933 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:47:02.005 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:47:02.006 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:47:02.034 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:47:02.107 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:47:02.114 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:47:02.116 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:47:02.119 com.jpashop.JpashopApplication - Started JpashopApplication in 0.578 seconds (JVM running for 2033.042)
+[INFO ] 20:47:02.120 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:47:19.436 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:47:19.438 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[INFO ] 20:47:19.444 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[INFO ] 20:47:19.585 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:47:19.585 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:47:19.734 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:47:19.739 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:47:19.808 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:47:19.809 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:47:19.809 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:47:19.809 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:47:19.823 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:47:19.823 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 235 ms
+[INFO ] 20:47:19.831 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+[INFO ] 20:47:19.834 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+[INFO ] 20:47:19.834 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:47:19.852 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:47:19.860 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:47:19.878 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:47:19.879 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:47:19.879 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:47:19.943 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:47:19.944 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:47:19.976 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:47:20.066 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:47:20.074 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:47:20.075 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:47:20.078 com.jpashop.JpashopApplication - Started JpashopApplication in 0.523 seconds (JVM running for 2051.001)
+[INFO ] 20:47:20.079 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:48:57.312 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:48:57.313 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+[INFO ] 20:48:57.319 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+[INFO ] 20:48:57.438 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:48:57.438 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:48:57.581 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:48:57.585 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:48:57.671 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:48:57.672 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:48:57.672 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:48:57.672 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:48:57.687 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:48:57.688 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 248 ms
+[INFO ] 20:48:57.695 com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+[INFO ] 20:48:57.698 com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+[INFO ] 20:48:57.699 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:48:57.716 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:48:57.721 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:48:57.737 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:48:57.738 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:48:57.738 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:48:57.794 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:48:57.795 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:48:57.819 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:48:57.889 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:48:57.895 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:48:57.897 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:48:57.900 com.jpashop.JpashopApplication - Started JpashopApplication in 0.493 seconds (JVM running for 2148.823)
+[INFO ] 20:48:57.902 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:49:13.205 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:49:13.206 com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+[INFO ] 20:49:13.215 com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+[INFO ] 20:49:13.300 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:49:13.301 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:49:13.454 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:49:13.458 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:49:13.523 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:49:13.523 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:49:13.523 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:49:13.524 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:49:13.539 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:49:13.539 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 236 ms
+[INFO ] 20:49:13.546 com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+[INFO ] 20:49:13.550 com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+[INFO ] 20:49:13.550 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:49:13.568 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:49:13.574 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:49:13.592 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:49:13.593 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:49:13.593 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:49:13.656 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:49:13.656 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:49:13.691 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:49:13.773 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:49:13.779 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:49:13.781 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:49:13.784 com.jpashop.JpashopApplication - Started JpashopApplication in 0.514 seconds (JVM running for 2164.707)
+[INFO ] 20:49:13.786 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:49:34.161 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:49:34.162 com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+[INFO ] 20:49:34.170 com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+[INFO ] 20:49:34.326 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:49:34.326 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:49:34.487 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:49:34.493 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:49:34.587 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:49:34.587 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:49:34.587 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:49:34.587 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:49:34.603 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:49:34.603 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 275 ms
+[INFO ] 20:49:34.605 com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+[INFO ] 20:49:34.613 com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+[INFO ] 20:49:34.613 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:49:34.625 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:49:34.633 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:49:34.653 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:49:34.653 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:49:34.653 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:49:34.704 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:49:34.704 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:49:34.733 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:49:34.808 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:49:34.818 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:49:34.819 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:49:34.823 com.jpashop.JpashopApplication - Started JpashopApplication in 0.529 seconds (JVM running for 2185.746)
+[INFO ] 20:49:34.823 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:50:31.090 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:50:31.091 com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+[INFO ] 20:50:31.097 com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+[INFO ] 20:50:31.201 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:50:31.202 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:50:31.342 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:50:31.346 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:50:31.435 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:50:31.436 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:50:31.436 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:50:31.436 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:50:31.451 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:50:31.451 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 248 ms
+[INFO ] 20:50:31.460 com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+[INFO ] 20:50:31.465 com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+[INFO ] 20:50:31.466 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:50:31.483 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:50:31.488 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:50:31.504 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:50:31.505 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:50:31.505 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:50:31.565 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:50:31.565 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:50:31.593 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:50:31.656 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:50:31.662 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:50:31.664 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:50:31.667 com.jpashop.JpashopApplication - Started JpashopApplication in 0.495 seconds (JVM running for 2242.59)
+[INFO ] 20:50:31.668 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:50:49.022 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:50:49.024 com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+[INFO ] 20:50:49.032 com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+[INFO ] 20:50:49.186 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:50:49.186 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:50:49.322 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:50:49.326 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:50:49.387 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:50:49.388 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:50:49.388 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:50:49.388 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:50:49.403 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:50:49.403 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 215 ms
+[INFO ] 20:50:49.410 com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+[INFO ] 20:50:49.413 com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+[INFO ] 20:50:49.413 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:50:49.435 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:50:49.441 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:50:49.457 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:50:49.458 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:50:49.458 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:50:49.511 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:50:49.511 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:50:49.537 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:50:49.607 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:50:49.615 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:50:49.617 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:50:49.620 com.jpashop.JpashopApplication - Started JpashopApplication in 0.464 seconds (JVM running for 2260.543)
+[INFO ] 20:50:49.621 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:51:23.343 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:51:23.345 com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+[INFO ] 20:51:23.350 com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+[INFO ] 20:51:23.443 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:51:23.443 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:51:23.593 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:51:23.598 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:51:23.694 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:51:23.695 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:51:23.695 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:51:23.695 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:51:23.709 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:51:23.709 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 264 ms
+[INFO ] 20:51:23.717 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+[INFO ] 20:51:23.720 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+[INFO ] 20:51:23.720 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:51:23.738 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:51:23.742 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:51:23.760 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:51:23.761 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:51:23.761 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:51:23.813 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:51:23.814 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:51:23.838 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:51:23.902 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:51:23.908 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:51:23.911 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:51:23.914 com.jpashop.JpashopApplication - Started JpashopApplication in 0.501 seconds (JVM running for 2294.836)
+[INFO ] 20:51:23.915 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:52:35.504 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:52:35.505 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+[INFO ] 20:52:35.511 com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+[INFO ] 20:52:35.614 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:52:35.615 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:52:35.756 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:52:35.759 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:52:35.847 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:52:35.847 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:52:35.847 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:52:35.847 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:52:35.862 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:52:35.862 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 246 ms
+[INFO ] 20:52:35.868 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+[INFO ] 20:52:35.873 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+[INFO ] 20:52:35.873 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:52:35.893 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:52:35.898 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:52:35.914 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:52:35.914 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:52:35.915 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[ERROR] 20:52:35.919 o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+[WARN ] 20:52:35.919 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+[INFO ] 20:52:35.919 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+[INFO ] 20:52:35.921 com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+[INFO ] 20:52:35.921 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 20:52:35.927 o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 20:52:35.951 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.jpashop.JpashopApplication.main(JpashopApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 25 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.jpashop.domain.Category
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:65)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:142)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:613)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:126)
+	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 33 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 42 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error, insert "}" to complete ClassBody
+	Syntax error on token ")", { expected after this token
+
+	at com.jpashop.domain.Category.<init>(Category.java:23)
+	... 47 common frames omitted
+[INFO ] 20:53:09.248 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:53:09.248 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:53:09.386 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:53:09.390 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:53:09.477 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:53:09.477 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:53:09.477 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:53:09.477 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:53:09.494 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:53:09.494 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 244 ms
+[INFO ] 20:53:09.502 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+[INFO ] 20:53:09.505 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+[INFO ] 20:53:09.505 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:53:09.523 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:53:09.528 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:53:09.551 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:53:09.552 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:53:09.553 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:53:09.643 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:53:09.644 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:53:09.667 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:53:09.756 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:53:09.782 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:53:09.787 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:53:09.793 com.jpashop.JpashopApplication - Started JpashopApplication in 0.571 seconds (JVM running for 2400.715)
+[INFO ] 20:53:09.795 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:53:11.710 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:53:11.711 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+[INFO ] 20:53:11.717 com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+[INFO ] 20:53:11.885 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:53:11.885 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:53:12.023 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:53:12.027 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:53:12.090 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:53:12.091 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:53:12.091 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:53:12.091 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:53:12.106 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:53:12.106 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 219 ms
+[INFO ] 20:53:12.113 com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+[INFO ] 20:53:12.117 com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+[INFO ] 20:53:12.117 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:53:12.134 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:53:12.139 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:53:12.153 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:53:12.154 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:53:12.154 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:53:12.208 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:53:12.208 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:53:12.234 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:53:12.300 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:53:12.306 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:53:12.308 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:53:12.312 com.jpashop.JpashopApplication - Started JpashopApplication in 0.458 seconds (JVM running for 2403.235)
+[INFO ] 20:53:12.313 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:54:00.415 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:54:00.416 com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+[INFO ] 20:54:00.423 com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+[INFO ] 20:54:00.525 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:54:00.526 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:54:00.670 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:54:00.674 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:54:00.764 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:54:00.765 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:54:00.765 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:54:00.765 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:54:00.780 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:54:00.780 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 252 ms
+[INFO ] 20:54:00.787 com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
+[INFO ] 20:54:00.791 com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
+[INFO ] 20:54:00.791 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:54:00.809 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:54:00.814 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:54:00.830 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:54:00.830 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:54:00.830 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:54:00.885 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:54:00.886 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:54:00.911 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:54:00.983 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:54:00.990 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:54:00.992 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:54:00.994 com.jpashop.JpashopApplication - Started JpashopApplication in 0.498 seconds (JVM running for 2451.917)
+[INFO ] 20:54:00.996 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 20:54:06.995 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 20:54:06.996 com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown initiated...
+[INFO ] 20:54:07.004 com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown completed.
+[INFO ] 20:54:07.093 com.jpashop.JpashopApplication - Starting JpashopApplication using Java 1.8.0_202 on DESKTOP-LCK9NKL with PID 40232 (C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop\bin\main started by bcw-pc in C:\Users\bcw-pc\Desktop\workspace\eclipse-workspace\jpashop)
+[INFO ] 20:54:07.094 com.jpashop.JpashopApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 20:54:07.235 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 20:54:07.240 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] 20:54:07.304 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20:54:07.305 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:54:07.305 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20:54:07.305 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+[INFO ] 20:54:07.319 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20:54:07.319 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 224 ms
+[INFO ] 20:54:07.326 com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Starting...
+[INFO ] 20:54:07.330 com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Start completed.
+[INFO ] 20:54:07.330 o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/jpashop'
+[INFO ] 20:54:07.350 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 20:54:07.355 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 20:54:07.372 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:54:07.373 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:54:07.373 org.hibernate.tuple.PojoInstantiator - HHH000182: No default (no-argument) constructor for class: com.jpashop.domain.Address (class must be instantiated by Interceptor)
+[INFO ] 20:54:07.424 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 20:54:07.424 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 20:54:07.455 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 20:54:07.524 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20:54:07.531 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20:54:07.532 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20:54:07.537 com.jpashop.JpashopApplication - Started JpashopApplication in 0.475 seconds (JVM running for 2458.46)
+[INFO ] 20:54:07.539 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

@@ -6,18 +6,21 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import com.jpashop.domain.Address;
+
+import lombok.extern.slf4j.Slf4j;
+
 @Controller
+@Slf4j
 public class MainController {
-	private static final Logger logger = LoggerFactory.getLogger(MainController.class);
-	
+
 	@GetMapping("/")
 	public String home(Model model) {
-		
-		logger.trace("m trace");
-        logger.debug("m debug");
-        logger.info("m info");
-        logger.warn("m warn");
-        logger.error("m error");
+		log.trace("m trace");
+		log.debug("m debug");
+		log.info("m info");
+		log.warn("m warn");
+		log.error("m error");
 		model.addAttribute("data", "hello");
 		return "home";
 	}

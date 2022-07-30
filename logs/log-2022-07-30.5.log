@@ -1,0 +1,20 @@
+[INFO ] 20:01:15.733 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 20:01:15.735 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 20:01:15.811 c.jpashop.controller.MainController - m info
+[WARN ] 20:01:15.812 c.jpashop.controller.MainController - m warn
+[ERROR] 20:01:15.812 c.jpashop.controller.MainController - m error
+[INFO ] 20:01:15.850 c.jpashop.controller.MainController - m info
+[WARN ] 20:01:15.850 c.jpashop.controller.MainController - m warn
+[ERROR] 20:01:15.850 c.jpashop.controller.MainController - m error
+[INFO ] 20:01:16.036 c.jpashop.controller.MainController - m info
+[WARN ] 20:01:16.037 c.jpashop.controller.MainController - m warn
+[ERROR] 20:01:16.038 c.jpashop.controller.MainController - m error
+[INFO ] 20:01:16.171 c.jpashop.controller.MainController - m info
+[WARN ] 20:01:16.171 c.jpashop.controller.MainController - m warn
+[ERROR] 20:01:16.172 c.jpashop.controller.MainController - m error
+[INFO ] 20:01:16.456 c.jpashop.controller.MainController - m info
+[WARN ] 20:01:16.457 c.jpashop.controller.MainController - m warn
+[ERROR] 20:01:16.457 c.jpashop.controller.MainController - m error
+[INFO ] 20:01:16.715 c.jpashop.controller.MainController - m info
+[WARN ] 20:01:16.716 c.jpashop.controller.MainController - m warn
+[ERROR] 20:01:16.716 c.jpashop.controller.MainController - m error

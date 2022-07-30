@@ -11,7 +11,7 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jpashop.entity.Member;
+import com.jpashop.domain.Member;
 
 @ActiveProfiles("test")
 @Transactional
@@ -23,25 +23,9 @@ public class MemberRepositoryTest {
 	private EntityManager em;
 	@Autowired
 	private MemberRepository memberRepository;
-	
+
 	@Test
 	public void testSave() {
-		Member member = new Member();
-		
-		member.setUsername("bcw");
-		
-		Long savedId = memberRepository.save(member);	
-		
-		System.out.println("====================================");
-		
-		em.flush();
-		em.clear();
-		
-		Member findMember = memberRepository.find(savedId);
-		
-		Assertions.assertThat(findMember.getId()).isEqualTo(member.getId());
-		Assertions.assertThat(findMember.getUsername()).isEqualTo(member.getUsername());
-		Assertions.assertThat(findMember).isEqualTo(member);
 	}
 
 	@Test
