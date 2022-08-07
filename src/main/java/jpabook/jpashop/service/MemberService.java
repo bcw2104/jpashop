@@ -25,6 +25,18 @@ public class MemberService {
         memberRepository.save(member);
         return member.getId();
     }
+    
+    /**
+     * 정보 변경
+     */
+    @Transactional
+    public Long update(Long id,String name) {
+    	Member member = memberRepository.findOne(id);
+    	
+    	member.setName(name);
+    	
+    	return member.getId();
+    }
 
     private void validateDuplicateMember(Member member) {
         List<Member> findMembers = memberRepository.findByName(member.getName());
